@@ -62,7 +62,7 @@ OPTIONS (
   uris = ['gs://sureskills-lab-dev/DAC2M2L4/returns/returns_*.parquet']
 );
 ```
-<img src="./Snapshots/Importing_ExternalData_from_BigLake.png" height="300" width="400">
+<img src="./Snapshots/Importing_ExternalData_from_BigLake.png" height="300" width="600">
 
 ✔ Demonstrates querying Parquet files directly from Cloud Storage
 
@@ -87,7 +87,7 @@ FROM `thelook_gcda.product_returns` pr
 INNER JOIN `thelook_gcda.distribution_centers` dc
 ON dc.id = pr.distribution_center_id;
 ```
-
+<img src="./Snapshots/InnerJoinProduct_Return_Distribution_tble.png" height="300" width="600">
 ✔ Combines external and native tables
 
 ---
@@ -107,7 +107,7 @@ INNER JOIN `thelook_gcda.products` p
 WHERE p.category = 'Jeans'
 GROUP BY dc.name, p.category;
 ```
-
+<img src="./Snapshots/Product_returned_by_Dist_Center.png" height="300" width="600">
 ✔ Identifies high-return categories by distribution center
 
 ---
