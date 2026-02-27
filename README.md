@@ -159,5 +159,6 @@ This project highlights how BigQuery can function as a **lakehouse**, enabling f
 
 ---
 
-📌 *Completed as part of the Google Cloud Data Analytics learning program.*
+📌 - *Completed as part of the Google Cloud Data Analytics learning program.*
+   - *Chat-GPT for documentation.* 
 
