@@ -1,5 +1,6 @@
 # explore-bigquery-lakehouse
 # 🏞️ Explore a Lakehouse Architecture with BigQuery
+<img src="./architecture/lakehouse _architecture.png" height="300" width="600">
 
 ## 🚀 Project Overview
 
