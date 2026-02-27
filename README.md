@@ -61,8 +61,8 @@ OPTIONS (
   format = 'PARQUET',
   uris = ['gs://sureskills-lab-dev/DAC2M2L4/returns/returns_*.parquet']
 );
-<img src="./Snapshots/Importing_ExternalData_from_BigLake.png" height="300" width="400">
 ```
+<img src="./Snapshots/Importing_ExternalData_from_BigLake.png" height="300" width="400">
 
 ✔ Demonstrates querying Parquet files directly from Cloud Storage
 
